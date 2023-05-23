@@ -1,0 +1,45 @@
+Versionamento:
+- Registro de mudanças em arquivos, possibilitando a recuperação ou acesso a versões anteriores.
+
+Git:
+- Sistema de controle de versão de código.
+- Guarda os registros de versões como snapshots (fotos) do estado do projeto, além da referência/caminho para essa foto.
+- A maioria das operações feitas pelo Git são locais.
+
+Estados do Git:
+- Untracked (não rastreado): arquivos que não estão sendo controlados pelo Git.
+- Unmodified (não modificado): arquivos que foram rastreados pelo Git, mas não foram modificados desde o último commit.
+- Modified (modificado): arquivos que foram modificados após o último commit.
+- Staged (preparado): arquivos que foram marcados para serem incluídos no próximo commit.
+
+Configuração e comandos básicos:
+- git config --global user.name "camilalemess": define o nome de usuário para os commits.
+- git config --global user.email "camilalemes888@gmail.com": define o email do usuário para os commits.
+- git init: inicializa um repositório na pasta.
+- git add nome_do_arquivo: adiciona as modificações de um arquivo para o próximo commit.
+- git commit -m "mensagem": cria um commit com as modificações adicionadas.
+- git status: exibe o estado dos arquivos do repositório.
+- git diff: mostra as linhas que foram modificadas (em vermelho) ou adicionadas (em verde).
+- git diff --staged: mostra as diferenças entre os arquivos na área de staging e o último commit.
+- git remote: gerencia repositórios remotos.
+- git pull: traz as alterações do repositório remoto para o repositório local.
+- git fetch: busca as alterações do repositório remoto sem mesclá-las com o código local.
+- git push origin master: envia as alterações para o repositório remoto.
+- git log: exibe o histórico dos commits criados.
+- git restore nome_do_arquivo: descarta as modificações feitas em um arquivo.
+- git restore --staged nome_do_arquivo: remove as modificações da área de staging.
+
+GitHub:
+- Plataforma de hospedagem de código.
+
+git branch:
+- Indica as branches (ramificações) existentes no repositório.
+- As branches permitem o desenvolvimento paralelo do código.
+- git branch nome: cria uma nova branch.
+- git log --oneline --decorate: indica em qual branch você está e exibe o histórico de commits de forma resumida.
+
+git merge nome_da_branch:
+- Une as branches, incorporando as alterações de uma branch na outra.
+
+git clone:
+- Comando utilizado para clonar (baixar) um repositório remoto para o repositório local.
